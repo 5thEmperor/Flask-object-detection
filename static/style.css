@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  background-image: url("img2.jpg");
+ 
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+  background-attachment: fixed;
+}
+
+/* .App-header {
+  background-image: url("object-detection-l.jpg");
+  color: black;
+  /* min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; */
+  /* height: 100%; */
+  
+
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */ 
+
+.container{
+  
+  /* height: 0% */
+  width: 50%;
+  height: 700px;
+  color: #61dafb;
+  /* background-color: antiquewhite; */
+  text-align: center;
+  position: relative;
+  left: 50%;
+  /* top: 50%; */
+  
+}
+#imageinput{
+  position: relative;
+  left: 10%;
+  border:  3px solid black ;
+  border-radius: 14%;
+  color: #ffffff;
+  background-color: #1388a8;
+}
+#sendbutton{
+  position: relative;
+  left: 10%;
+}
+.element{
+  position: relative;
+  top: 30%;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.pre_img {
+  height: 600px;
+  width: 600px;
+  /* background-color: white; */
+}
+
+input[type="file"] {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 40px 40px;
+  /* display: none; */
+}
+
+#pre {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px 40px;
+}
+
+p {
+  margin: 50px;
+  font-size: 72px;
+}
+
+#link {
+  visibility: hidden;
+}
+
+
+.button {
+  background-color: #1388a8; /* Green */
+  border: none;
+  color: rgb(237, 237, 237);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  border:  3px solid black ;
+  border-radius: 14%;
+}
+
+.line{
+  width: 10px;
+  color: white;
+  width: 75%;
+}
